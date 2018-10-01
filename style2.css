@@ -1,0 +1,228 @@
+body{
+    min-width: 1100px;
+}
+.background {
+    background: #3c4955 url(img/intro-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#logo {
+    width: 100px;
+    margin-left: 15%;
+    margin-top: 25px;
+    display: block;
+    float: left;
+}
+@font-face {
+    font-family: 'Big John';
+    src: url('fonts/big_john-webfont.eot');
+    src: url('fonts/big_john-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/big_john-webfont.woff2') format('woff2'),
+         url('fonts/big_john-webfont.woff') format('woff'),
+         url('fonts/big_john-webfont.ttf') format('truetype'),
+         url('fonts/big_john-webfont.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Slim Joe';
+    src: url('fonts/slim_joe-webfont.eot');
+    src: url('fonts/slim_joe-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/slim_joe-webfont.woff2') format('woff2'),
+         url('fonts/slim_joe-webfont.woff') format('woff'),
+         url('fonts/slim_joe-webfont.ttf') format('truetype'),
+         url('fonts/slim_joe-webfont.svg#slim_joeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
+.navi ul li {
+    display: block;
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+    margin-top: 15px;
+    
+}
+.navi {
+    margin-right: 100px;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding-top: 60px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Big John';
+}
+h3 {
+    font-family: 'Slim Joe';
+}
+#bot {
+    display: inline-block;
+    font-family: sans-serif;
+    border: 2px #48bf72 solid;
+    border-radius: 2px;
+    padding: 5px;
+    color: #48bf72;
+    cursor: pointer;
+}
+#bot:hover {
+    background-color: rgb(129, 129, 129);
+    color: white;
+}
+.navib {
+    margin-left: 19%;
+    margin-top: 60px;
+}
+.navib ul li{
+    width: 120px;
+    height: 35px;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    border-radius: 2px;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+ul li {
+    padding-top: 8px;
+}
+.navib ul li:hover {
+    background-color: #48bf72;
+    color: white;
+    cursor: pointer;
+}
+
+
+.photo1{
+    height: 300px;
+    padding: 10px;
+}
+.photo2{
+    height: 416px;
+    padding: 10px;
+}
+
+
+#photo {
+    margin-top: 50px;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;   
+}
+#men {
+    clear: both;
+    background: #3c4955 url(men.jpg) 50% no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 960px;
+    font-family: Lato;
+    font-weight: 100;
+    font-size: 34px;
+}
+#men {
+    padding-top: 60px;
+    padding-left: 50%;
+    color: white;
+
+}
+#sec {
+    font-size: 24px;
+    margin: 0;
+}
+#sec2 {
+    font-family: lato;
+    font-size: 20px;
+}
+#bot2 {
+    display: inline-block;
+    font-family: lato bold;
+    border: 2px #3c4955 solid;
+    border-radius: 2px;
+    padding: 5px;
+    color: #3c4955;
+    cursor: pointer;
+    font-size: 20px;
+}
+#bot2:hover {
+    background-color: #48bf72;
+    color: white;
+    cursor: pointer;
+}
+#contact{
+    font-family: 'Big John';
+    color: #48bf72;
+    text-align: center;
+}
+#form {
+    text-align: center;
+}
+input.name {
+        background: url(name.jpg) no-repeat center left;
+        padding-left:60px;
+        height: 48px;
+        box-sizing: border-box;
+        border: 1px #3c4955 solid;
+        font-size: 24px;
+        
+}
+input.email {
+    background: url(email.jpg) no-repeat center left;
+    padding-left:60px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px #3c4955 solid;
+    font-size: 24px;
+}
+textarea#comment{
+    margin-top: 20px;
+    clear: both;
+    background: url(text.jpg) no-repeat center left;
+    padding-left:80px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px #3c4955 solid;
+    font-size: 24px;
+    height: 220px;
+    width: 596px;
+}
+#envoyer {
+    background-color: #48bf72;
+    color: white;
+    width: 596px;
+    height: 40px;
+    margin-left: -5px;
+    font-family: Lato bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+#bottom {
+    margin-top: 20px;
+    background-color: #3c4955;
+    height: 100px;
+    color: white;   
+    padding-left: 20%;
+    padding-top: 40px;
+    font-size: 16px;   
+    display: block;
+}
+#nuz {
+    display: block;
+    float: left;
+}
+.icon {
+    width: 50px;
+    margin-left: 
+}
+.icon#bottom {
+    display:block;
+    float: left;
+}
+#icon {
+    margin-left: 60%;
+}
